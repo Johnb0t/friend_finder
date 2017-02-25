@@ -1,9 +1,7 @@
-// This file will hold all information from people who fill out the survey.
-// Each new person will be an object that will be pushed into the array.
 var friends = [
 	{
   "name": "John",
-  "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+  "photo": "https://s-media-cache-ak0.pinimg.com/originals/63/5b/e4/635be48d369155f6274250d5afd245e5.jpg",
   "scores": [
       5,
       1,
@@ -15,10 +13,12 @@ var friends = [
       5,
       4,
       1
-    ]
+    ],
+    "totalScore" : 30,
+    "userGrade" : "a"
 }, {
     "name": "Jeff",
-  "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+  "photo": "https://s-media-cache-ak0.pinimg.com/originals/63/5b/e4/635be48d369155f6274250d5afd245e5.jpg",
   "scores": [
       5,
       1,
@@ -31,9 +31,11 @@ var friends = [
       4,
       1
     ],
+    "totalScore" : 20,
+    "userGrade" : "b"
 }, {
     "name": "Steve",
-  "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+  "photo": "https://s-media-cache-ak0.pinimg.com/originals/63/5b/e4/635be48d369155f6274250d5afd245e5.jpg",
   "scores": [
       5,
       1,
@@ -46,9 +48,11 @@ var friends = [
       4,
       1
     ],
+    "totalScore" : 20,
+    "userGrade" : "c"
 }, {
     "name": "Nuno",
-  "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+  "photo": "https://s-media-cache-ak0.pinimg.com/originals/63/5b/e4/635be48d369155f6274250d5afd245e5.jpg",
   "scores": [
       5,
       1,
@@ -61,9 +65,11 @@ var friends = [
       4,
       1
     ],
+    "totalScore" : 20,
+    "userGrade" : "a"
 }, {
     "name": "Hero",
-  "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+  "photo": "https://s-media-cache-ak0.pinimg.com/originals/63/5b/e4/635be48d369155f6274250d5afd245e5.jpg",
   "scores": [
       5,
       1,
@@ -75,6 +81,12 @@ var friends = [
       5,
       4,
       1
-    ]
+    ],
+    "totalScore" : 20,
+    "userGrade" : "d"
 }
 ];
+
+
+
+module.exports = friends;

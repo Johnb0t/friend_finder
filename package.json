@@ -3,23 +3,24 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/blupie01/friend_finder.git"
+    "url": "git+https://github.com/nuno1895/FriendFinder.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/blupie01/friend_finder/issues"
+    "url": "https://github.com/nuno1895/FriendFinder/issues"
   },
-  "homepage": "https://github.com/blupie01/friend_finder#readme",
-  "dependencies": {
-    "body-parser": "^1.16.1",
-    "express": "^4.14.1",
-    "nodemon": "^1.11.0",
-    "path": "^0.12.7"
-  }
+  "homepage": "https://github.com/nuno1895/FriendFinder#readme"
 }
