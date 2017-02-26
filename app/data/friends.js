@@ -1,7 +1,7 @@
 var friends = [
 	{
   "name": "John",
-  "photo": "https://s-media-cache-ak0.pinimg.com/originals/63/5b/e4/635be48d369155f6274250d5afd245e5.jpg",
+  "photo": "http://uploads.neatorama.com/images/posts/328/88/88328/1455494723-0.jpg",
   "scores": [
       5,
       1,
@@ -18,7 +18,7 @@ var friends = [
     "userGrade" : "a"
 }, {
     "name": "Jeff",
-  "photo": "https://s-media-cache-ak0.pinimg.com/originals/63/5b/e4/635be48d369155f6274250d5afd245e5.jpg",
+  "photo": "http://uploads.neatorama.com/images/posts/328/88/88328/1455494723-0.jpg",
   "scores": [
       5,
       1,
@@ -35,7 +35,7 @@ var friends = [
     "userGrade" : "b"
 }, {
     "name": "Steve",
-  "photo": "https://s-media-cache-ak0.pinimg.com/originals/63/5b/e4/635be48d369155f6274250d5afd245e5.jpg",
+  "photo": "http://uploads.neatorama.com/images/posts/328/88/88328/1455494723-0.jpg",
   "scores": [
       5,
       1,
@@ -52,7 +52,7 @@ var friends = [
     "userGrade" : "c"
 }, {
     "name": "Nuno",
-  "photo": "https://s-media-cache-ak0.pinimg.com/originals/63/5b/e4/635be48d369155f6274250d5afd245e5.jpg",
+  "photo": "http://uploads.neatorama.com/images/posts/328/88/88328/1455494723-0.jpg",
   "scores": [
       5,
       1,
@@ -69,7 +69,7 @@ var friends = [
     "userGrade" : "a"
 }, {
     "name": "Hero",
-  "photo": "https://s-media-cache-ak0.pinimg.com/originals/63/5b/e4/635be48d369155f6274250d5afd245e5.jpg",
+  "photo": "http://uploads.neatorama.com/images/posts/328/88/88328/1455494723-0.jpg",
   "scores": [
       5,
       1,
