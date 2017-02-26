@@ -11,23 +11,17 @@ module.exports = function(app) {
 
 	// API POST request
 	app.post("/api/friends", function(req, res) {
-    console.log(req.body.userGrade);
-    var userFinalScore = req.body.userGrade;
+   console.log(req.body.userGrade);
+   var userFinalScore = req.body.userGrade;
 
-    // $("#matchName").text(data.name);
-    //       $('#matchImg').attr("src", data.photo);
+   var resultsArray = [];
 
-    //       // Show the modal with the best match 
-    //       $("#resultsModal").modal('toggle');
-
-
-    for (var i = 0; i < friends.length; i++) {
-      if (userFinalScore == friends[i].userGrade) {
-        console.log(friends[i]);
-        res.json(friends[i]);
-      };
-      
-    }
+   for (var i = 0; i < friends.length; i++) {
+     if (userFinalScore == friends[i].userGrade) {
+       resultsArray.push(friends[i]);
+     };
+   };
+   res.json(resultsArray);
     
     
     
