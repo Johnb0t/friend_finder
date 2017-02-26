@@ -19,12 +19,6 @@ require("./app/routing/apiRoutes")(app);
 require("./app/routing/htmlRoutes")(app);
 
 
-
-
-// Basic route that sends the user first to the AJAX Page
-
-
-
 // Starts the server to begin listening
 // =============================================================
 app.listen(PORT, function() {
