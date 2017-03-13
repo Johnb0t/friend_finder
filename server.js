@@ -4,7 +4,7 @@ var bodyParser = require("body-parser");
 // Sets up the Express App
 // =============================================================
 var app = express();
-var port = process.env.PORT || 8080;
+var port = process.env.PORT || 3000;
 
 app.listen(port, function() {
     console.log('Our app is running on http://localhost:' + 3000);
